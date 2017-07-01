@@ -1,3 +1,24 @@
 <resources>
-    <string name="app_name">ViennaTourGuide</string>
+    <string name="app_name">Vienna Tour Guide</string>
+
+    <string name="hotel_name">hote1</string>
+    <string name="hotel_addr">bla bla</string>
+    <string name="hotel_name2">hotel</string>
+    <string name="hotel_addr2">bla bla bla</string>
+
+    <string name="shopping_name">mall</string>
+    <string name="shopping_addr">bla bla</string>
+    <string name="shopping_name2">mall</string>
+    <string name="shopping_addr2">bla bla</string>
+
+    <string name="restaurant_name">restaurant</string>
+    <string name="restaurant_addr">bla bla</string>
+    <string name="restaurant_name2">restaurant</string>
+    <string name="restaurant_addr2">bla bla</string>
+
+    <string name="sightseeing_name">place</string>
+    <string name="sightseeing_addr">address</string>
+    <string name="sightseeing_name2">place</string>
+    <string name="sightseeing_addr2">address</string>
+
 </resources>
