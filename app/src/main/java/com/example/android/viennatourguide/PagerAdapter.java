@@ -51,7 +51,7 @@ public class PagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
-        // Generate title based on item position
+        // generate title based on item position
         return tabTitles[position];
     }
 }

@@ -23,7 +23,7 @@ public class RestaurantFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View rootView = inflater.inflate(R.layout.fragment_restaurants, container, false);
+        View basicView = inflater.inflate(R.layout.fragment_restaurants, container, false);
 
         ArrayList<Item> items = new ArrayList<>();
 
@@ -34,11 +34,11 @@ public class RestaurantFragment extends Fragment {
         items.add(new Item(getString(R.string.restaurant_name5), "", getString(R.string.restaurant_addr5), R.drawable.veganer));
         items.add(new Item(getString(R.string.restaurant_name6), "", getString(R.string.restaurant_addr6), R.drawable.veganista));
 
-        ListView listView = (ListView) rootView.findViewById(R.id.restaurant);
-        Adapter adapter = new Adapter(rootView.getContext(), items);
+        ListView listView = (ListView) basicView.findViewById(R.id.restaurant);
+        Adapter adapter = new Adapter(basicView.getContext(), items);
         listView.setAdapter(adapter);
 
-        return rootView;
+        return basicView;
     }
 
 }
