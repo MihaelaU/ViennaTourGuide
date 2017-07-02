@@ -27,8 +27,12 @@ public class RestaurantFragment extends Fragment {
 
         ArrayList<Item> items = new ArrayList<>();
 
-        items.add(new Item(getString(R.string.restaurant_name), "", getString(R.string.restaurant_addr)));
-        items.add(new Item(getString(R.string.restaurant_name2), "", getString(R.string.restaurant_addr2)));
+        items.add(new Item(getString(R.string.restaurant_name), "", getString(R.string.restaurant_addr), R.drawable.naschmarkt));
+        items.add(new Item(getString(R.string.restaurant_name2), "", getString(R.string.restaurant_addr2), R.drawable.cafecentral));
+        items.add(new Item(getString(R.string.restaurant_name3), "", getString(R.string.restaurant_addr3), R.drawable.figlmuller));
+        items.add(new Item(getString(R.string.restaurant_name4), "", getString(R.string.restaurant_addr4), R.drawable.ulrich));
+        items.add(new Item(getString(R.string.restaurant_name5), "", getString(R.string.restaurant_addr5), R.drawable.veganer));
+        items.add(new Item(getString(R.string.restaurant_name6), "", getString(R.string.restaurant_addr6), R.drawable.veganista));
 
         ListView listView = (ListView) rootView.findViewById(R.id.restaurant);
         Adapter adapter = new Adapter(rootView.getContext(), items);

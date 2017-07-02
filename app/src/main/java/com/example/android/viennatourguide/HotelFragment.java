@@ -30,8 +30,11 @@ public class HotelFragment extends Fragment {
 
         ArrayList<Item> items = new ArrayList<>();
 
-        items.add(new Item(getString(R.string.hotel_name), "", getString(R.string.hotel_addr)));
-        items.add(new Item(getString(R.string.hotel_name2), "", getString(R.string.hotel_addr2)));
+        items.add(new Item(getString(R.string.hotel_name), "", getString(R.string.hotel_addr), R.drawable.hotelstadthalle));
+        items.add(new Item(getString(R.string.hotel_name2), "", getString(R.string.hotel_addr2), R.drawable.starin));
+        items.add(new Item(getString(R.string.hotel_name), "", getString(R.string.hotel_addr), R.drawable.ibishotel));
+        items.add(new Item(getString(R.string.hotel_name2), "", getString(R.string.hotel_addr2), R.drawable.kolpinghaus));
+        items.add(new Item(getString(R.string.hotel_name), "", getString(R.string.hotel_addr), R.drawable.flemingshotels));
 
         ListView listView = (ListView) rootView.findViewById(R.id.hotel);
         Adapter adapter = new Adapter(rootView.getContext(), items);

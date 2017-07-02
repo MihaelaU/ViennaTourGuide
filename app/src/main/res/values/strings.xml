@@ -1,24 +1,56 @@
 <resources>
     <string name="app_name">Vienna Tour Guide</string>
 
-    <string name="hotel_name">hote1</string>
-    <string name="hotel_addr">bla bla</string>
-    <string name="hotel_name2">hotel</string>
-    <string name="hotel_addr2">bla bla bla</string>
+    <string name="hotel_name">Boutique Hotel Stadthalle</string>
+    <string name="hotel_addr">Hackengasse 20, 1150 Wien, www.hotelstadthalle.at</string>
+    <string name="hotel_name2">Star Inn Hotel</string>
+    <string name="hotel_addr2">Linke Wienzeile 224, 1150 Wien, starinnhotels.com</string>
+    <string name="hotel_name3">Hotel Ibis</string>
+    <string name="hotel_addr3">Schönbrunner Str. 92, 1050 Wien, accorhotels.com</string>
+    <string name="hotel_name4">Kolpinghaus Wien-Zentral</string>
+    <string name="hotel_addr4">Gumpendorfer Strasse 39, Vienna 1060, www.kolping-wien-zentral.at</string>
+    <string name="hotel_name5">Fleming\'s Hotel Wien-Westbahnhof</string>
+    <string name="hotel_addr5">Neubaugürtel 26-28, 1070 Wien, www.flemings-hotels.com</string>
 
-    <string name="shopping_name">mall</string>
-    <string name="shopping_addr">bla bla</string>
-    <string name="shopping_name2">mall</string>
-    <string name="shopping_addr2">bla bla</string>
 
-    <string name="restaurant_name">restaurant</string>
-    <string name="restaurant_addr">bla bla</string>
-    <string name="restaurant_name2">restaurant</string>
-    <string name="restaurant_addr2">bla bla</string>
+    <string name="shopping_name">Vienna Naschmarkt</string>
+    <string name="shopping_addr">Wienzeile, 1060, www.wienernaschmarkt.eu</string>
+    <string name="shopping_name2">Kärntnerstrasse</string>
+    <string name="shopping_addr2">Kärntner Strasse, 1010 Wien</string>
+    <string name="shopping_name3">Mariahilferstrasse</string>
+    <string name="shopping_addr3">Mariahilfer Strasse, www.mariahilferstrasse.at/</string>
+    <string name="shopping_name4">Lugner City</string>
+    <string name="shopping_addr4">Gablenzg. 3, 1150 Wien, lugner.at</string>
+    <string name="shopping_name5">Donauzentrum</string>
+    <string name="shopping_addr5">Wagramer Str. 81, 1220 Wien, donauzentrum.at</string>
 
-    <string name="sightseeing_name">place</string>
-    <string name="sightseeing_addr">address</string>
-    <string name="sightseeing_name2">place</string>
-    <string name="sightseeing_addr2">address</string>
+    <string name="restaurant_name">Naschmarkt</string>
+    <string name="restaurant_addr">Wienzeile, 1060, www.wienernaschmarkt.eu</string>
+    <string name="restaurant_name2">Café Central</string>
+    <string name="restaurant_addr2">Herrengasse 14, 1010 Wien, palaisevents.at</string>
+    <string name="restaurant_name3">Figlmüller – Best Schnitzel</string>
+    <string name="restaurant_addr3">Wollzeile 5, 1010 Wien, www.figlmueller.at</string>
+    <string name="restaurant_name4">Ulrich – Best Breakfast</string>
+    <string name="restaurant_addr4">Sankt-Ulrichs-Platz 1, 1070 Wien, www.ulrichwien.at</string>
+    <string name="restaurant_name5">Harvest Bistrot – Vegan Restaurant</string>
+    <string name="restaurant_addr5">Karmeliterplatz 1, 1020 Wien, harvest-bistrot.at</string>
+    <string name="restaurant_name6">Veganista - Icecream</string>
+    <string name="restaurant_addr6">http://www.veganista.at/shops</string>
+
+    <string name="sightseeing_name">St. Stephen\'s Cathedral (Stephansdom)</string>
+    <string name="sightseeing_addr">Stephansplatz, 1010 Wien, www.stephanskirche.at</string>
+    <string name="sightseeing_name2">Schloss Schönbrunn</string>
+    <string name="sightseeing_addr2">13, Schönbrunner Schlossstrasse 47, http://www.schoenbrunn.at</string>
+    <string name="sightseeing_name3">Kunsthistorisches Museum Vienna</string>
+    <string name="sightseeing_addr3">01, Maria-Theresien-Platz, http://www.khm.at</string>
+    <string name="sightseeing_name4">Schloss Belvedere</string>
+    <string name="sightseeing_addr4">Prinz Eugen-Straße 27, http://www.belvedere.at</string>
+    <string name="sightseeing_name5">Hofburg</string>
+    <string name="sightseeing_addr5">01, Michaelerkuppel, http://www.hofburg-wien.at</string>
+    <string name="sightseeing_name6">Ring Strasse</string>
+    <string name="sightseeing_addr6">Schwedenplatz, 1010 Wien, www.wienerlinien.at. Boarding and alighting point on Schwedenplatz
+Departs daily from 10.00 am to 5.30 pm on the hour and half hour</string>
+    <string name="sightseeing_name7">Haus des Meeres</string>
+    <string name="sightseeing_addr7">Fritz-Grünbaum-Platz 1, https://www.haus-des-meeres.at/</string>
 
 </resources>

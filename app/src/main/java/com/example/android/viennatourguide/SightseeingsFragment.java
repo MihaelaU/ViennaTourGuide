@@ -27,9 +27,13 @@ public class SightseeingsFragment extends Fragment {
 
         ArrayList<Item> items = new ArrayList<>();
 
-        items.add(new Item(getString(R.string.sightseeing_name), "", getString(R.string.sightseeing_addr)));
-        items.add(new Item(getString(R.string.sightseeing_name2), "", getString(R.string.sightseeing_name2)));
-
+        items.add(new Item(getString(R.string.sightseeing_name), "", getString(R.string.sightseeing_addr), R.drawable.stephansdom));
+        items.add(new Item(getString(R.string.sightseeing_name2), "", getString(R.string.sightseeing_name2), R.drawable.schonnbrun));
+        items.add(new Item(getString(R.string.sightseeing_name3), "", getString(R.string.sightseeing_addr3), R.drawable.kunsthistorisches));
+        items.add(new Item(getString(R.string.sightseeing_name4), "", getString(R.string.sightseeing_name4), R.drawable.belvedere));
+        items.add(new Item(getString(R.string.sightseeing_name5), "", getString(R.string.sightseeing_addr5), R.drawable.hofburg));
+        items.add(new Item(getString(R.string.sightseeing_name6), "", getString(R.string.sightseeing_name6), R.drawable.ringstrasse));
+        items.add(new Item(getString(R.string.sightseeing_name7), "", getString(R.string.sightseeing_addr7), R.drawable.aquarium));
         ListView listView = (ListView) rootView.findViewById(R.id.sightseeing);
         Adapter adapter = new Adapter(rootView.getContext(), items);
         listView.setAdapter(adapter);

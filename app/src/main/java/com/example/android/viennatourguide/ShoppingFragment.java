@@ -27,8 +27,11 @@ public class ShoppingFragment extends Fragment {
 
         ArrayList<Item> items = new ArrayList<>();
 
-        items.add(new Item(getString(R.string.shopping_name), "", getString(R.string.shopping_addr), R.drawable.viennarainbowflag));
-        items.add(new Item(getString(R.string.shopping_name2), "", getString(R.string.shopping_addr2), R.drawable.viennarainbowflag));
+        items.add(new Item(getString(R.string.shopping_name), "", getString(R.string.shopping_addr), R.drawable.naschmarkt2));
+        items.add(new Item(getString(R.string.shopping_name2), "", getString(R.string.shopping_addr2), R.drawable.kaerntnerstrasse));
+        items.add(new Item(getString(R.string.shopping_name3), "", getString(R.string.shopping_addr3), R.drawable.mariahilferstrasse));
+        items.add(new Item(getString(R.string.shopping_name4), "", getString(R.string.shopping_addr4), R.drawable.lugnercity));
+        items.add(new Item(getString(R.string.shopping_name5), "", getString(R.string.shopping_addr5), R.drawable.donauzentrum));
 
         ListView listView = (ListView) rootView.findViewById(R.id.shopping);
         Adapter adapter = new Adapter(rootView.getContext(), items);
