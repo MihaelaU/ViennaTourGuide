@@ -13,8 +13,6 @@ import java.util.ArrayList;
 
 public class SightseeingsFragment extends Fragment {
 
-    public static final String NAME = "SIGHTSEEING";
-
     public SightseeingsFragment() {
         // empty public constructor
     }

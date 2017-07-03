@@ -53,4 +53,9 @@ Departs daily from 10.00 am to 5.30 pm on the hour and half hour</string>
     <string name="sightseeing_name7">Haus des Meeres</string>
     <string name="sightseeing_addr7">Fritz-Grünbaum-Platz 1, https://www.haus-des-meeres.at/</string>
 
+    <string name="sightseeings">sightseeings</string>
+    <string name="hotels">hotels</string>
+    <string name="restaurants">restaurants</string>
+    <string name="shopping">shopping</string>
+
 </resources>

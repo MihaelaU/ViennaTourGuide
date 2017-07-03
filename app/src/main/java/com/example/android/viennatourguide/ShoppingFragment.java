@@ -12,8 +12,6 @@ import java.util.ArrayList;
 //@link fragment subclass.
 public class ShoppingFragment extends Fragment {
 
-    public static final String NAME = "SHOPPING";
-
     public ShoppingFragment() {
         // empty public constructor
     }

@@ -12,10 +12,8 @@ import java.util.ArrayList;
 //@link fragment subclass.
 public class RestaurantFragment extends Fragment {
 
-    public static final String NAME = "RESTAURANTS";
-
     public RestaurantFragment() {
-        // required empty public constructor
+        // requird eempty public constructor
     }
 
 

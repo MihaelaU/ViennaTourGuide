@@ -10,19 +10,12 @@ public class PagerAdapter extends FragmentPagerAdapter {
 
     private final int PAGE_COUNT = 4;
 
-    private String tabTitles[] = new String[]{
-            SightseeingsFragment.NAME,
-            HotelFragment.NAME,
-            RestaurantFragment.NAME,
-            ShoppingFragment.NAME};
-
-
-    private Context mContext;
-
     public PagerAdapter(FragmentManager fm, Context context) {
         super(fm);
         mContext = context;
     }
+
+    private Context mContext;
 
     @Override
     public int getCount() {
@@ -37,21 +30,32 @@ public class PagerAdapter extends FragmentPagerAdapter {
                 fragment = Fragment.instantiate(mContext, SightseeingsFragment.class.getName());
                 break;
             case 1:
-                fragment = Fragment.instantiate(mContext, HotelFragment.class.getName());
+                fragment = Fragment.instantiate(mContext, SightseeingsFragment.class.getName());
                 break;
             case 2:
-                fragment = Fragment.instantiate(mContext, RestaurantFragment.class.getName());
+                fragment = Fragment.instantiate(mContext, ShoppingFragment.class.getName());
                 break;
             case 3:
-                fragment = Fragment.instantiate(mContext, ShoppingFragment.class.getName());
+                fragment = Fragment.instantiate(mContext, RestaurantFragment.class.getName());
                 break;
         }
         return fragment;
     }
-
+    public CharSequence tabTitles(int position){
+        switch (position){
+            case 0:
+                return mContext.getString(R.string.sightseeings);
+            case 1:
+                return mContext.getString(R.string.hotels);
+            case 2:
+                return mContext.getString(R.string.restaurants);
+            default:
+                return mContext.getString(R.string.shopping);
+        }
+    }
     @Override
     public CharSequence getPageTitle(int position) {
-        // generate title based on item position
-        return tabTitles[position];
+        // Generate title based on item position
+        return tabTitles(position);
     }
 }

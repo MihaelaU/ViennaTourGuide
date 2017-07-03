@@ -11,8 +11,6 @@ import java.util.ArrayList;
 
 public class HotelFragment extends Fragment {
 
-    public static final String NAME = "HOTELS";
-
     public HotelFragment() {
         // empty public constructor
     }
